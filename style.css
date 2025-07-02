@@ -215,6 +215,8 @@ h2{
 .zer>i{
     color: #f40a53;
     font-size: 40px;
+    display: flex;
+    margin-left: 5vh;
     
 }
 .zer>img{
@@ -228,10 +230,28 @@ h2{
     
 
 }
-.zeri>i{
-    color: white;
+
+.zer>p{
     display: flex;
-    justify-content: center;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    text-align:left;
+}
+.zer>h4{
+    color: #f40a53;
+    font-size:medium;
+}
+.zeri>i{
+    color: #f40a53;
+    font-size: 30px;
+
+}
+    
+
+    
+.zeri>h4{
+    color: #f40a53;
+    font-size:medium;
 }
 
 
@@ -250,11 +270,13 @@ h2{
     .porto{
         grid-template-columns: 1fr;
     }
-
-    }
     .italie{
-        
+        grid-template-columns: 1fr;
     }
 
-}
+    }
+    
+        
+    
+
     
